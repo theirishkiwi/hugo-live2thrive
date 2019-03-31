@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Walking on chrislindsay.org</title>
+    <link>http://localhost:3000/tags/walking/</link>
+    <description>Recent content in Walking on chrislindsay.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Feb 2019 11:19:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:3000/tags/walking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Do this one thing to Thrive! Watch to find out.</title>
+      <link>http://localhost:3000/blog/exercise/</link>
+      <pubDate>Sun, 10 Feb 2019 11:19:00 +0000</pubDate>
+      
+      <guid>http://localhost:3000/blog/exercise/</guid>
+      <description>Life can be stressful. In fact, let&amp;rsquo;s be honest - life is full of stress. We have hectic lives with constant demands on our time and money pressures. The list goes on.
+Stress triggers the release of chemicals into the body which set off a chain reaction. Necessary if you are facing a wild animal. No so much if you’re worried about bills you need to pay or ‘that’ meeting with your boss.</description>
+    </item>
+    
+  </channel>
+</rss>

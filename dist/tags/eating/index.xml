@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eating on chrislindsay.org</title>
+    <link>http://localhost:3000/tags/eating/</link>
+    <description>Recent content in Eating on chrislindsay.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Jan 2019 21:29:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:3000/tags/eating/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Eating to Thrive.</title>
+      <link>http://localhost:3000/blog/eating/</link>
+      <pubDate>Fri, 11 Jan 2019 21:29:00 +0000</pubDate>
+      
+      <guid>http://localhost:3000/blog/eating/</guid>
+      <description>Hi, thanks for taking the time to watch this live video. This is the second video on the series of How to Get Out of Survival Mode and in this video, I discuss nutrition. My name is Chris Lindsay, thanks for watching.
+Stress and eating. Stress can influence our food choices, so when you&amp;rsquo;re stressed out from whatever might be stressing you, your boss or colleagues, what foods do you crave?</description>
+    </item>
+    
+  </channel>
+</rss>

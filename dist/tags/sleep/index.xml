@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sleep on chrislindsay.org</title>
+    <link>http://localhost:3000/tags/sleep/</link>
+    <description>Recent content in Sleep on chrislindsay.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Jan 2019 19:22:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:3000/tags/sleep/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sleep to Thrive!</title>
+      <link>http://localhost:3000/blog/sleep/</link>
+      <pubDate>Fri, 04 Jan 2019 19:22:00 +0000</pubDate>
+      
+      <guid>http://localhost:3000/blog/sleep/</guid>
+      <description>Hi. My name is Chris Lindsay, from Chrislindsay.org. Welcome to this live video. This is the first in a series of videos on helping you to get out of survival mode. What if there was one thing you could do that by spending more time doing each day, you&amp;rsquo;d help prevent type 2 diabetes and heart disease. You&amp;rsquo;d feel better physically and emotionally. You&amp;rsquo;d boost your immune system.</description>
+    </item>
+    
+  </channel>
+</rss>

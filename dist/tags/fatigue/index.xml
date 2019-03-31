@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fatigue on chrislindsay.org</title>
+    <link>http://localhost:3000/tags/fatigue/</link>
+    <description>Recent content in Fatigue on chrislindsay.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Feb 2019 18:44:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:3000/tags/fatigue/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>These are 7 ways you know you’re in Survival Mode</title>
+      <link>http://localhost:3000/blog/7_ways_you_know/</link>
+      <pubDate>Sun, 17 Feb 2019 18:44:00 +0000</pubDate>
+      
+      <guid>http://localhost:3000/blog/7_ways_you_know/</guid>
+      <description>You can’t calm the storm, so stop trying. What you can do is calm yourself. The storm will pass.” —Timber Hawkeye
+ Hi, guys. Welcome to today&amp;rsquo;s live video. My name is Chris Lindsay. Today I wanted to cover seven ways you know if you&amp;rsquo;re in survival mode. I&amp;rsquo;m just going to jump straight into it. These are basically signals from your body or things that you could pick up on.</description>
+    </item>
+    
+    <item>
+      <title>Sleep to Thrive!</title>
+      <link>http://localhost:3000/blog/sleep/</link>
+      <pubDate>Fri, 04 Jan 2019 19:22:00 +0000</pubDate>
+      
+      <guid>http://localhost:3000/blog/sleep/</guid>
+      <description>Hi. My name is Chris Lindsay, from Chrislindsay.org. Welcome to this live video. This is the first in a series of videos on helping you to get out of survival mode. What if there was one thing you could do that by spending more time doing each day, you&amp;rsquo;d help prevent type 2 diabetes and heart disease. You&amp;rsquo;d feel better physically and emotionally. You&amp;rsquo;d boost your immune system.</description>
+    </item>
+    
+  </channel>
+</rss>
