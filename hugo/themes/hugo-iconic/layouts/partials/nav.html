@@ -1,0 +1,47 @@
+<div class="js-sticky">
+  <div class="fh5co-main-nav">
+    <div class="container">
+      <div class="fh5co-menu-1">
+
+	<a href="#" data-nav-section="home">{{ with .Site.Params.nav }}{{ if isset . "logo" }}<img src={{ .logo | absURL }} height="20" alt="">{{ end }}{{ if (not (isset . "logo")) }}Home{{ end }}{{ end }}</a>
+        {{ $isHome := .Page.IsHome }}
+	{{ if .Site.Params.mission.enable }}
+	<a href="#" data-nav-section="mission">{{ with .Site.Params.nav.mission }}{{ . | markdownify }}{{ end }}</a>
+	{{ end }}
+
+	{{ if .Site.Params.services.enable }}
+	<a href="#" data-nav-section="services">{{ with .Site.Params.nav.services }}{{ . | markdownify }}{{ end }}</a>
+	{{ end }}
+
+	{{ if .Site.Params.team.enable }}
+	<a href="#" data-nav-section="team">{{ with .Site.Params.nav.team }}{{ . | markdownify }}{{ end }}</a>
+	{{ end }}
+
+	{{ if .Site.Params.blog.enable }}
+        
+            {{ $pageIsInBlog := eq .Page.Section "blog"}}
+            {{ if not (and $pageIsInBlog (eq .Page.Kind "section")) }}
+            {{ with .Site.GetPage "/blog" }}
+            {{ if $isHome }}
+	    <a href="{{ printf "#%s" (.Title | urlize) }}" data-nav-section="blog">{{ with .Site.Params.nav.blog }}{{ . | markdownify }}{{ end }}</a>
+            {{ else }}
+            <a class="navbar-item" href="{{ .Permalink }}" data-nav-section="blog">{{ with .Site.Params.nav.blog }}{{ . | markdownify }}{{ end }}
+                {{ if $pageIsInBlog }}
+                {{ i18n "nav_backToSection" . }}
+                {{ else }}
+                {{ .Title | singularize}}
+                {{ end }}
+            </a>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+	{{ end }}
+
+	{{ if .Site.Params.contact.enable }}
+	<a href="#" data-nav-section="contact">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a>
+	{{ end }}
+	
+      </div>
+    </div>
+  </div>
+</div>
