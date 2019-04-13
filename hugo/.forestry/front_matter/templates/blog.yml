@@ -1,7 +1,6 @@
 ---
 label: Blog
 hide_body: true
-display_field: date
 fields:
 - type: datetime
   name: date
@@ -12,3 +11,12 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
+- type: datetime
+- type: textarea
+  name: text
+  label: body
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
