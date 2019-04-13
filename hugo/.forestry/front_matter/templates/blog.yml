@@ -1,6 +1,7 @@
 ---
 label: Blog
 hide_body: true
+display_field: title
 fields:
 - type: datetime
   name: date
@@ -20,3 +21,8 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: text
+  name: title
+  label: TITLE
+  config:
+    required: true
