@@ -6,13 +6,13 @@ fields:
   name: title
   label: TITLE
   config:
-    required: true
+    required: false
 - type: datetime
   name: date
   label: Date
   config:
     date_format: YYYY-MM-DDT20:10:00+00:00
-    required: true
+    required: false
 - type: tag_list
   name: tags
   label: Tags
