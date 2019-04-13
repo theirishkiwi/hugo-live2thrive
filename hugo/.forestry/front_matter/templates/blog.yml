@@ -1,5 +1,5 @@
 ---
-label: Blog
+label: Post
 hide_body: true
 fields:
 - type: text
@@ -16,5 +16,5 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
-  ---
+---
   
