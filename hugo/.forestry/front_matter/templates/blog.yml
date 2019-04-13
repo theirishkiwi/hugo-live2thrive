@@ -1,0 +1,14 @@
+---
+label: Blog
+hide_body: true
+display_field: date
+fields:
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: YYYY-MM-DDT20:10:00+00:00
+    required: true
+- type: tag_list
+  name: tags
+  label: Tags
