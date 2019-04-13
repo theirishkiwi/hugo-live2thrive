@@ -16,3 +16,6 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
+- type: boolean
+  name: published
+  label: Published
