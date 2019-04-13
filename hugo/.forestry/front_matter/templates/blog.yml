@@ -4,15 +4,17 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: TITLE
+  label: title
   config:
     required: false
 - type: datetime
   name: date
-  label: Date
+  label: date
   config:
     date_format: YYYY-MM-DDT20:10:00+00:00
     required: false
 - type: tag_list
   name: tags
   label: Tags
+  ---
+  
