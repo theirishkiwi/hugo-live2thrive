@@ -49,7 +49,7 @@
             {{ partialCached "blog/li.html" . }}
         {{ else }}
         <div class="container has-text-centered top-pad">
-            <a href="{{ .Permalink }}">{{ i18n "index_blog_allPosts" /blog }}</a>
+            <a href="{{ .Permalink }}">{{ i18n "index_blog_allPosts" . }}</a>
         </div>
         {{ end }}
     </div>
