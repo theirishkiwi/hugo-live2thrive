@@ -19,5 +19,3 @@ fields:
 - type: boolean
   name: published
   label: Published
-pages:
-- hugo/content/blog/test.md
