@@ -20,3 +20,5 @@ fields:
 - type: boolean
   name: published
   label: Published
+pages:
+- hugo/content/blog/what-running-round-central-park-taught-me-about-goal-setting.md
