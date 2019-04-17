@@ -9,10 +9,6 @@
 	<a href="#" data-nav-section="mission">{{ with .Site.Params.nav.mission }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
 
-	{{ if .Site.Params.services.enable }}
-	<a href="#" data-nav-section="services">{{ with .Site.Params.nav.services }}{{ . | markdownify }}{{ end }}</a>
-	{{ end }}
-
 	{{ if .Site.Params.team.enable }}
 	<a href="#" data-nav-section="team">{{ with .Site.Params.nav.team }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
@@ -35,6 +31,10 @@
             {{ end }}
             {{ end }}
             {{ end }}
+	{{ end }}
+	      
+	{{ if .Site.Params.services.enable }}
+	<a href="#" data-nav-section="services">{{ with .Site.Params.nav.services }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
 
 	{{ if .Site.Params.contact.enable }}
