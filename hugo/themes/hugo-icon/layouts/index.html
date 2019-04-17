@@ -21,13 +21,13 @@
 	{{ if .Site.Params.mission.enable }}
 	{{ partial "mission.html" .}}
 	{{ end }}
+	      
+	{{ if .Site.Params.services.enable }}
+	{{ partial "services.html" .}}
+	{{ end }}
 
 	{{ if .Site.Params.blog.enable }}
 	{{ partial "blog.html" .}}
-	{{ end }}
-
-	{{ if .Site.Params.services.enable }}
-	{{ partial "services.html" .}}
 	{{ end }}
 	
 	{{ if .Site.Params.work.enable }}
