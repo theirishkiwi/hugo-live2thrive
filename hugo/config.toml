@@ -18,9 +18,9 @@ title = "Live to Thrive"
 # Navigation section
 [params.nav]
   mission = "My Mission"
+  services = "Services"
   # team = "The Team"
   blog = "Blog"
-  services = "Services"
   contact = "Get In Touch"
   # Include logo instead if HOME:
   # logo = "path/to/logo"
