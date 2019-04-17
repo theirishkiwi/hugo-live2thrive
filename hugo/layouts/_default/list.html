@@ -4,7 +4,7 @@
     </div>
     <div class="container">
         {{ if .Site.Params.home.showLatest | default true }}
-        <h2 class="title is-2 top-pad">{{ ../themes/hugo-icon/i18n "index_blog_latestPosts" . }}</h2>
+        <h2 class="title is-2 top-pad">{{ ../../../themes/hugo-icon/i18n "index_blog_latestPosts" . }}</h2>
         {{ range first 1 .Pages.ByPublishDate.Reverse }}
         <div class="summary">{{ if .Params.date }}{{ .Date.Format (.Site.Params.dateFormat | default "Jan 02, 2006") }}{{ end }}
             <h3 class="title is-3 strong-post-title">
@@ -15,14 +15,14 @@
             <div class="markdown">
                 {{ .Summary }}
                 {{ if .Truncated }}
-                <a href="{{ .Permalink }}">{{ ../themes/hugo-icon/i18n "index_blog_readMore" . }}</a>
+                <a href="{{ .Permalink }}">{{ ../../../themes/hugo-icon/i18n "index_blog_readMore" . }}</a>
                 {{ end }}
             </div>
         </div>
         {{ end }}
 
         {{ end }}
-        <h2 class="title is-2 top-pad">{{ ../themes/hugo-icon/i18n "index_blog_allPosts" . }}</h2>
+        <h2 class="title is-2 top-pad">{{ ../../../themes/hugo-icon/i18n "index_blog_allPosts" . }}</h2>
         {{ partialCached "blog/li.html" . }}
     </div>
 {{ end }}
