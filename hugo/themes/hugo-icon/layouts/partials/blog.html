@@ -48,12 +48,12 @@
         <h2 class="title is-2 has-text-centered top-pad">{{ i18n "index_blog_allPosts" . }}</h2>
             {{ partialCached "blog/li.html" . }}
         {{ else }}
-        <!--div class="container has-text-centered top-pad">
+        <div class="container has-text-centered top-pad">
             <a href="{{ .Permalink }}">{{ i18n "index_blog_allPosts" . }}</a>
-        </div -->
-      <div class="container has-text-centered top-pad">
-            <a href="{{ .Permalink }}">{{ .Site.GetPage "/blog" }}</a>
         </div>
+      <!--div class="container has-text-centered top-pad">
+            <a href="{{ .Permalink }}">{{ .Site.GetPage "/blog" }}</a>
+        </div-->
         {{ end }}
     </div>
   
