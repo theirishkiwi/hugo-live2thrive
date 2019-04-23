@@ -1,4 +1,4 @@
-{{ $bundleRaw := resources.Get "/sass/style.sass" | resources.ExecuteAsTemplate "/css/main.tmp.css" . }}
+<!--{{ $bundleRaw := resources.Get "/sass/style.sass" | resources.ExecuteAsTemplate "/css/main.tmp.css" . }}
 
 {{ if .Site.IsServer }}
 {{ $cssOpts := (dict "targetPath" "/css/main.css" "enableSourceMap" true ) }}
@@ -12,7 +12,7 @@
 {{ end }}
 
 <!-- Custom css -->
-{{ range .Site.Params.customCSS -}}
+<!--{{ range .Site.Params.customCSS -}}
     {{ $style := resources.Get . }}
     <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
-{{- end }}
+{{- end }}-->
