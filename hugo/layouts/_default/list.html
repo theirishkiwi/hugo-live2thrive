@@ -3,12 +3,8 @@
 {{/* Add your site or webapp content here */}}
 <p>{{ .Content }}</p>
 
- {{ range first 10 .Data.Pages }}
-    <h1><a href={{ .Permalink }}>{{ .Title }}</a></h1>
-  {{ end }}
-
 {{/* Loops through and displays all child pages */}}
-<h2>The Pages</h2>
+<h2>Posts</h2>
 <ul>
 {{ range .Data.Pages }}
 <li>
