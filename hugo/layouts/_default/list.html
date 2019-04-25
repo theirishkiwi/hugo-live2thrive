@@ -3,7 +3,6 @@
 {{/* Add your site or webapp content here */}}
 <p>{{ .Content }}</p>
 
-{{ if .Site.Title.Blog.showLatest }}
         <h2 class="title is-2 top-pad">"Latest Post"</h2>
         {{ range first 1 .Pages.ByPublishDate.Reverse }}
         <div class="summary">{{ if .Params.date }}{{ .Date.Format (.Site.Params.dateFormat | default "Jan 02, 2006") }}{{ end }}
@@ -20,7 +19,7 @@
             </div>
         </div>
         {{ end }}
-{{ end }}
+
 {{/* Loops through and displays all child pages */}}
 <h2>Posts</h2>
 <ul>
