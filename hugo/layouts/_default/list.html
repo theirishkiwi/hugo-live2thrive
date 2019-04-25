@@ -16,6 +16,11 @@
                 {{ .Summary }}
                 {{ if .Truncated }}
                 <a href="{{ .Permalink }}">"Read More"</a>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+
 {{ end }}
 
 {{/* Loops through and displays all child pages */}}
