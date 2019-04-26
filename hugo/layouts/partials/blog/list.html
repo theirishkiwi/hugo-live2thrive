@@ -1,1 +1,35 @@
+{{ partial "head" . }}
 
+{{ partial "nav.html" . }}
+
+{{/* Add your site or webapp content here */}}
+<p>{{ .Content }}</p>
+
+        <h2 class="title is-2 top-pad">Latest Post</h2>
+        {{ range first 1 .Pages.ByPublishDate.Reverse }}
+        <div class="summary">{{ if .Params.date }}{{ .Date.Format (.Site.Params.dateFormat | default "Jan 02, 2006") }}{{ end }}
+            <h3 class="title is-3 strong-post-title">
+                <a href="{{ .Permalink }}">
+                    {{ .Title }}
+                </a>
+            </h3>
+            <div class="markdown">
+                {{ .Summary }}
+                {{ if .Truncated }}
+                <a href="{{ .Permalink }}">Read More</a>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+
+{{/* Loops through and displays all child pages */}}
+<h2>Posts</h2>
+<ul>
+{{ range .Data.Pages }}
+<li>
+  <a href="{{ .Permalink }}">{{ .Date.Format (.Site.Params.dateFormat | default "Jan 02, 2006") }} | {{ .Title }}</a>
+</li>
+{{ end }}
+</ul>
+
+{{ partial "footer" . }}
