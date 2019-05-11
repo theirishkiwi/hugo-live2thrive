@@ -1,5 +1,5 @@
 # Main config file for icon theme.
-theme = "hugo-icon"
+theme = "airspace-hugo" #"hugo-icon"
 baseURL = "/"
 languageCode = "en-AU"
 title = "Live to Thrive"
